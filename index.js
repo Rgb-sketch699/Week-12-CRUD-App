@@ -7,7 +7,7 @@ $.get('https://63e5ef12c8839ccc284dfcf4.mockapi.io/CRUD_APP_API/socialmedia', (d
 
 $.post('https://63e5ef12c8839ccc284dfcf4.mockapi.io/CRUD_APP_API/socialmedia', {
   name: 'Gus',
-  job: 'Software Developer'
+  job: 'Some dude who makes windows xp software'
 }, (data) => console.log(data));
 
 form.addEventListener("submit", (e) => {
